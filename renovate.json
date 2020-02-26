@@ -2,8 +2,7 @@
   "extends": [
     "config:base"
   ],
-  "assignees": ["benjamincharity"],
-  "masterIssue": "true",
+  "masterIssue": true,
   "packageRules": [
     {
       "packagePatterns": ["jest"],
@@ -12,10 +11,6 @@
     {
       "packagePatterns": ["^@semantic-release"],
       "groupName": "SemanticRelease Packages"
-    },
-    {
-      "packagePatterns": ["^@terminus"],
-      "groupName": "Terminus Packages"
     },
     {
       "packagePatterns": ["^@terminus"],
@@ -40,7 +35,7 @@
   "rebaseConflictedPrs": false,
   "rebaseStalePrs": false,
   "reviewers": [
-    "benjamincharity"
+    "team:uxe"
   ],
   "semanticCommits": true,
   "semanticCommitScope": "Packages",
